@@ -28,3 +28,8 @@ B 站的消息列表接口，带不带 `id` 是两种语义：
 `fetch` 和 `XMLHttpRequest` 都挂了钩子（B 站用 axios，走 XHR），只匹配这三个路径，其它请求一律不碰。
 
 > 一个无关紧要的副作用：消息中心页面会自己把顶部的未读数字清成 0，那只是当前标签页的前端状态，刷新后就会恢复。
+
+---
+
+[![](https://img.shields.io/badge/powered_by-dsh-4D6BFE?style=flat-square&logo=deepseek&logoColor=white)](https://github.com/deepseek-ai/deepseek-harness)
+
